@@ -1,0 +1,20 @@
+.animated-circle {
+  fill: none;
+  stroke: #6B7280; /* Darker gray */
+  stroke-width: 0.13; /* Slightly thicker for better visibility */
+  stroke-linecap: round; /* Smoother thread ends */
+  /* animation-duration, animation-delay, and animation-direction are set inline on the element */
+  animation-name: dash;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 0; /* Start at 0 offset */
+  }
+  to {
+    /* A very large value to ensure continuous movement along the circle for all sizes, making the loop imperceptible. */
+    stroke-dashoffset: 5000;
+  }
+}

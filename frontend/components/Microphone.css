@@ -1,0 +1,27 @@
+.microphone-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .microphone-button {
+    /* background-color: #f0f0f0; */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .microphone-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .microphone-button.recording {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  

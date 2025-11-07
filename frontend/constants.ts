@@ -1,0 +1,7 @@
+
+export const USER_AVATAR_URL = "https://lh3.googleusercontent.com/aida-public/AB6AXuCp-66cHI7NdHpGzGOMltG2eA96RP4jwJLXrVFTECMoB7zz752WeY1oCbR4-Cwyb5zFmqYR1gRBrmzraFbMZdjgg-EgTYybeAyMMkflHGOtgYWjHFIs9obtbFyzNTpK2RcIb-eE1DMiAFZwrHEyn0o1OsAcI4khnAhl-Ux9CWAWE-sH7F7De_TUUcp1azLw3puNgBEAyXJVHBzt2jBzsPalOevlI2e_tkwfV6f5uZbeWXP0XcnqiNAFJH3aZnP1kLsOlqfSfC8bBt3w";
+export const AI_AVATAR_URL = "https://lh3.googleusercontent.com/aida-public/AB6AXuBpMsM4ipfKHuEcbXkAtby4TJm4K8uHDlaPSyDgI-zO0au28GrucKBrwlz5vI3eLzFOaUzUaeYDmBUfQ3pZLfkwIz-TSZ2Y1-h_bLn9R6c7b4MVHSlpBZ1hmJ7gAzQmGLwYFFTxohbjuTe32GPuk5roNl_H5fGRHL72da7etkDdUs6wXHnvNE6XWVt_qI3FJwtWF_1qECV4zgpgGhYsQawb73t4I-O-3z8QXYJhNjLkAhaI5CCBtAJxpwzVbwbpFuc7Q81iQNHKEXI";
+
+export const MAX_INPUT_LENGTH = 2000;
+export const APP_NAME = "mRAG";
+export const API_BASE_URL = "http://localhost:5000";
